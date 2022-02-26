@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="full">
+        <div id="reg">
+            <h1 class="res">REGESTRACTION FROM</h1>
+        </div>
+        <from>
+            <div id="name">
+                <h2 class="name">NAME</h2>
+                <input class="name" type="text" name="name" required>
+            </div>
+           <h2 class="name">Company</h2>
+           <input class="company" type="text" name="company">
+
+
+
+             <div id="error"></div>
+             <from action="/" method="GET">
+                 <div>
+           <h2 class="name">Email</h2>
+           <input class="email" type="text" name="email" required>
+
+           <h2 class="name">PASSWORD</h2>
+           <input class="password" type="text" name="password" required>
+         
+                 </div>
+
+           <h2 class="name">Phone</h2>
+           
+           <input class="number" type="text" name="phone">
+ 
+           
+           <h2 class="name">Subject</h2>
+           <select class="option w-25" name="subject">
+               <option disabled="disabled" selected="selected">--Choose Option</option>
+               <option>Subject 1</option>
+               <option>Subject 2</option>
+               <option>Subject 3</option>
+           </select>
+           <div class="button">
+           <button type="button" class="btn btn-primary">SUBMIT</button>  
+           </div>
+        </from>
+    </div>
+      </div>
+ <script src="./script.js"></script>
+</body>
+</html>
